@@ -34,11 +34,11 @@
 #     print(f'你输入的字符串{str}是回文')
 
 #05-将用户输入的10个字符串, 反转后全部转换为大写, 然后记录在列表中, 最后将列表内容，遍历输出出来
-# str = input()
-# new_str = str[::-1]
-# new_str1=new_str.upper()
-# list = list(new_str1)
-# print(list)
+list = []
+for a in range(1,11):
+    s = input("请输入一个字符:")
+    list.append(s[::-1].upper())
+print(list)
 
 #06-现有两个变量，分别为：a = 10， b = 20，现需要将这两个变量值交换，然后输出到控制台。
 # a = 10
